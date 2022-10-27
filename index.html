@@ -217,7 +217,7 @@
           </a>
           <!-- SEPERATOR -->
           <span class="flex items-center mx-2.5 opacity-50">
-            <img src="images/arrow-right-white.svg" alt="" class="h-2 w-2">
+            <img src="images/arrow-right-white.svg" alt="" class="h-2 w-2" />
           </span>
           <span>The Collective</span>
         </span>
@@ -227,14 +227,15 @@
         THE COLLECTIVE
       </h1>
       <p class="mb-5 leading-tight text-lg text-white font-['Jost',_sans-serif] mx-auto">
-        The BASE Collective is our unique community of adventure creatives, trailblazers and influencers. Elite or
-        emerging,
-        they represent a wide range of adventure specialisms and hail from all corners of the globe.
+        The BASE Collective is our unique community of adventure
+        creatives, trailblazers and influencers. Elite or emerging,
+        they represent a wide range of adventure specialisms and
+        hail from all corners of the globe.
       </p>
       <p class="mb-5 leading-tight text-lg text-white font-['Jost',_sans-serif] mx-auto">
-        The Collective work with us and our commercial partners to create new amazing adventure stories then shape and
-        share the
-        output with their own loyal followers.
+        The Collective work with us and our commercial partners to
+        create new amazing adventure stories then shape and share
+        the output with their own loyal followers.
       </p>
     </div>
     <!-- HERO FILTER CONTAINER -->
@@ -243,7 +244,7 @@
         <!-- ALL ACTIVITY -->
         <div class="col-span-11 md:col-span-3 border-b border-r relative">
           <img src="images/skiing-grey.svg" alt=""
-            class="hidden sm:block h-6 absolute left-3 top-2/4 -translate-y-1/2 opacity-50 max-w-full">
+            class="hidden sm:block h-6 absolute left-3 top-2/4 -translate-y-1/2 opacity-50 max-w-full" />
           <select name="activity" id="activity"
             class="w-full border-none h-12 md:h-14 rounded-lg p-2.5 sm:pl-12 outline-none focus:outline-none appearance-none text-base sm:text-xl bg-[url('../images/download.svg')] bg-no-repeat bg-[position:right_0.5rem_center] bg-[length:1.5em_1.5em] text-[#766d66] font-['Jost',_sans-serif]">
             <option>All activity types</option>
@@ -258,7 +259,7 @@
         <!-- ALL CREATIVE SKILLS -->
         <div class="col-span-11 md:col-span-3 border-b border-r relative">
           <img src="images/camera-grey.svg" alt=""
-            class="hidden sm:block h-6 absolute left-3 top-2/4 -translate-y-1/2 opacity-50 max-w-full">
+            class="hidden sm:block h-6 absolute left-3 top-2/4 -translate-y-1/2 opacity-50 max-w-full" />
           <select name="authors" id="authors"
             class="w-full border-none h-12 md:h-14 rounded-lg p-2.5 sm:pl-12 outline-none focus:outline-none appearance-none text-base sm:text-xl bg-[url('../images/download.svg')] bg-no-repeat bg-[position:right_0.5rem_center] bg-[length:1.5em_1.5em] text-[#766d66] font-['Jost',_sans-serif]">
             <option>All Authors</option>
@@ -281,7 +282,7 @@
         <!-- ALL LOCATIONS -->
         <div class="col-span-11 md:col-span-3 border-b border-r relative">
           <img src="images/map-grey.svg" alt=""
-            class="hidden sm:block h-6 absolute left-3 top-2/4 -translate-y-1/2 opacity-50 max-w-full">
+            class="hidden sm:block h-6 absolute left-3 top-2/4 -translate-y-1/2 opacity-50 max-w-full" />
           <select name="authors" id="authors"
             class="w-full border-none h-12 md:h-14 rounded-lg p-2.5 sm:pl-12 outline-none focus:outline-none appearance-none text-base sm:text-xl bg-[url('../images/download.svg')] bg-no-repeat bg-[position:right_0.5rem_center] bg-[length:1.5em_1.5em] text-[#766d66] font-['Jost',_sans-serif]">
             <option>All locations</option>
@@ -511,16 +512,14 @@
             :class="showCard ? 'opacity-100' : 'opacity-0'" x-data="{showCard: false}"
             x-intersect.threshold.26="showCard = true" x-intersect:leave.threshold.20="showCard = false">
             <img :src="card.imageSrc" :alt="card.title" :title="card.title"
-              class="object-cover object-center h-full w-full">
+              class="object-cover object-center h-full w-full" />
             <!-- IMAGE CAPTION -->
             <div
               class="absolute inset-x-0 bottom-0 p-8 before:absolute before:inset-0 before:bg-[linear-gradient(180deg,transparent,#000000e6)] before:z-0">
               <h3 class="text-white font-['Russo_One',_sans-serif] text-3xl mb-2 relative z-[1] uppercase"
-                x-text="card.title">
-              </h3>
+                x-text="card.title"></h3>
               <p class="text-white text-base leading-tight relative z-[1] mb-5 font-['Jost',_sans-serif] hidden group-hover:block"
-                x-text="card.detail">
-              </p>
+                x-text="card.detail"></p>
               <div class="relative z-30 hidden group-hover:block">
                 <span
                   class="px-3 py-2 md:py-3 whitespace-nowrap rounded-md ease-[cubic-bezier(.4,0,.2,1)] transition-all uppercase text-[15px] bg-[#f79400] text-white inline-flex items-center font-['Jost',_sans-serif] tracking-wider hover:bg-[#cb7900]">
@@ -552,15 +551,16 @@
             DON’T MISS A SINGLE ADVENTURE
           </h5>
           <p class="text-white/75 font-['Jost',_sans-serif] md:text-lg mb-4">
-            Sign up <span class="font-bold">for free</span> today to get our weekly BASE newsletter. Made by adventurers
-            for adventurers. We distil the best
-            stories, reviews and news to whet your adventure appetite.
+            Sign up <span class="font-bold">for free</span> today to
+            get our weekly BASE newsletter. Made by adventurers for
+            adventurers. We distil the best stories, reviews and
+            news to whet your adventure appetite.
           </p>
           <form class="w-full relative">
             <!-- EMAIL INPUT -->
             <input type="search"
               class="w-full appearance-none bg-white border outline-none border-[#d3d3d3] focus:border-[#f79400] focus:ring-0 py-2.5 px-3 text-[19px] leading-[24px] rounded-lg font-['Jost',_sans-serif]"
-              placeholder="Email Address" value="" name="e">
+              placeholder="Email Address" value="" name="e" />
             <!-- EMAIL SUBMIT BUTTON -->
             <button type="button"
               class="md:absolute mt-1.5 md:mt-0 w-full md:w-auto right-0 top-0 bottom-0 bg-[#f79400] rounded-md md:rounded-r-md md:rounded-l-none transition-colors hover:bg-[#cb7900] text-white flex items-center justify-center py-2.5 px-3 uppercase font-semibold">
@@ -624,22 +624,22 @@
         <ul class="flex flex-row">
           <li class="mr-3 mb-1">
             <a href="#" class="block opacity-100 transition-opacity hover:opacity-75">
-              <img src="images/instagram.svg" alt="" class="h-6 w-auto">
+              <img src="images/instagram.svg" alt="" class="h-6 w-auto" />
             </a>
           </li>
           <li class="mr-3 mb-1">
             <a href="#" class="block opacity-100 transition-opacity hover:opacity-75">
-              <img src="images/youtube.svg" alt="" class="h-6 w-auto">
+              <img src="images/youtube.svg" alt="" class="h-6 w-auto" />
             </a>
           </li>
           <li class="mr-3 mb-1">
             <a href="#" class="block opacity-100 transition-opacity hover:opacity-75">
-              <img src="images/linkedin.svg" alt="" class="h-6 w-auto">
+              <img src="images/linkedin.svg" alt="" class="h-6 w-auto" />
             </a>
           </li>
           <li class="mr-3 mb-1">
             <a href="#" class="block opacity-100 transition-opacity hover:opacity-75">
-              <img src="images/facebook.svg" alt="" class="h-6 w-auto">
+              <img src="images/facebook.svg" alt="" class="h-6 w-auto" />
             </a>
           </li>
         </ul>
@@ -654,19 +654,13 @@
         </p>
         <ul class="flex flex-row flex-wrap sm:justify-between text-sm mb-0 text-white opacity-75 p-0">
           <li class="mx-2">
-            <a href="#">
-              Privacy Policy
-            </a>
+            <a href="#"> Privacy Policy </a>
           </li>
           <li class="mx-2">
-            <a href="#">
-              Cookie Notice
-            </a>
+            <a href="#"> Cookie Notice </a>
           </li>
           <li class="mx-2">
-            <a href="#">
-              Website by Yellow Peach
-            </a>
+            <a href="#"> Website by Yellow Peach </a>
           </li>
         </ul>
       </div>
